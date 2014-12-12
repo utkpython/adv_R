@@ -1,4 +1,4 @@
-# how to do R from the command line
+# how to do R from the command line... why is it useful?
 
 # how to run an R script
 
