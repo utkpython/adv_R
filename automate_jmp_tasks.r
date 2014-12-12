@@ -11,4 +11,4 @@
 
 # do a t test on a column
 
-# 
+# printing out a summary for all the columns
