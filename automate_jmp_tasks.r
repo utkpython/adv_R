@@ -1,7 +1,9 @@
 # some quick scripts to replicate some JMP functionality (minus the GUI parts...)
 
 # snag a basic csv file
+myData <- read.csv(path_to_your_data.csv,header=TRUE) # or FALSE, depending on the file
 # attach it
+attach(myData)
 
 # similar to "analyze distribution" 
 # get a histogram for a column
