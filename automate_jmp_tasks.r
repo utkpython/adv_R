@@ -22,7 +22,7 @@ qqline(myColumn)
 
 
 # do a t test on a column
-mu_theory = what_you_think_mu_is
+mu_theory <- what_you_think_mu_is
 t.test(myColumn,mu=mu_theory)
 
 # printing out a summary for all the columns
