@@ -7,8 +7,18 @@ attach(myData)
 
 # similar to "analyze distribution" 
 # get a histogram for a column
+hist(myColumn,main="your title")
+legend("topright",paste("Mean = ", round(mean(myColumn),1),
+       "\nMed. = ",round(median(myColumn),1),
+       "\nSD = ", round(sd(myColumn),1)),bty="n")
 # get the summary statistics 
-# test for normality: Wald test?
+summary(myColumn)
+# test for normality: Shapiro-Wilk test?
+shapiro.test(myColumn)
+
+# basic QQ-plot: is it approximately normal?
+qqnorm(myColumn)
+qqline(myColumn)
 
 
 # do a t test on a column
