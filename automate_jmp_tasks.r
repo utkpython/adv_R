@@ -26,4 +26,4 @@ mu_theory <- what_you_think_mu_is
 t.test(myColumn,mu=mu_theory)
 
 # printing out a summary for all the columns
-for (i in names(da)) { print(c(i,summary(da[[i]])))} #this is really sloppy looking, need better way to do it
+for (i in names(myData)) { print(c(i,summary(myData[[i]])))} #this is really sloppy looking, need better way to do it
