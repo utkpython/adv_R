@@ -7,4 +7,6 @@
 
 # fitdistrplus
 
+# devtools, specifically for install_github
+
 # ...
