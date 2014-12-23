@@ -15,34 +15,37 @@ looper <- function(x = 100) {
   e             <- TRUE
   elements      <- a[d]
   
-  while(e == TRUE) {
+  while (e == TRUE) {
     c <- TRUE
-    while(c == TRUE) {
+    while (c == TRUE) {
       loopelements <- c(loopelements,elements)
       count        <- count+1
       
-      if( elements != d) {
+      if (elements != d) {
         elements <- a[elements]
       } else {
         c <- FALSE
         }
-      if(loopelements[1] == loopelements[length(loopelements)]) {
+        
+      if (loopelements[1] == loopelements[length(loopelements)]) {
         loopelements <- loopelements[-length(loopelements)]
       }
     }
+    
     loopcount     <- c(loopcount, count)
     count         <- 0
     totalelements <- c(totalelements, loopelements)
     
-    if(length(setdiff(a,totalelements)) > 1) {
+    if (length(setdiff(a,totalelements)) > 1) {
       elements <- sample(setdiff(a, totalelements), 1)
     } else {
       (elements <- setdiff(a, totalelements))
     }
+    
     d            <- elements
     elements     <- a[d]
     loopelements <- c(d)
-    if(length(setdiff(a,totalelements)) == 0 ) {
+    if (length(setdiff(a,totalelements)) == 0 ) {
       e <- FALSE
     }
   }
