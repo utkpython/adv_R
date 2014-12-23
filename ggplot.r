@@ -5,5 +5,16 @@
 
 # histograms
 # ---------------------------------------------
-qplot(myData$column)
+qplot(column, data = myData)
+
+
+
+
+# scatterplots
+# ---------------------------------------------
+qplot(column1,column2, data = myData)
+
+# similar to JMP
+qplot(column1,column2,data = myData, geom=c("point","smooth"))
+
 
