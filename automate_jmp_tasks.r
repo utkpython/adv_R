@@ -6,6 +6,8 @@ myData <- read.csv(path_to_your_data.csv,header=TRUE) # or FALSE, depending on t
 # attach it
 attach(myData)
 
+#suggestion: instead of using attach, use with(myData, ...)
+
 #----------------------------------
 # similar to "analyze distribution" 
 # get a histogram for a column
