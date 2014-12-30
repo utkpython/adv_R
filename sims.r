@@ -17,3 +17,7 @@
 # To do this, we need to define a happiness function.
 
 library(lpSolveAPI)
+
+# each person has an attractiveness score (1 to 10)
+# Assume the population follows this distribution.
+attractiveness <- c(.05,.075,.075,.15,.15,.2,.125,.1,.05,.025)
