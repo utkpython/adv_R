@@ -4,7 +4,7 @@ srvtime    <- 0
 arvtime    <- 0
 arrival_tm <- rexp(1, 5)       #how long before customers arrive(with a rate of 5 an hour avg)
 time       <- time + arrival_tm
-wait_times  <- c()
+wait_times <- c()
 serv       <- c()
 arv        <- c()
 
