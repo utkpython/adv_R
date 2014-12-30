@@ -7,6 +7,7 @@
 
 # makes handling data easier
 
+install.packages("plyr")
 
 
 # -------------
@@ -16,6 +17,7 @@
 # makes plotting fun again
 # also a buzzword in data science cliques
 
+install.packages("ggplot2")
 
 # ------------
 # fitdistrplus
