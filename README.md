@@ -11,3 +11,7 @@ After all, it's a super powerful tool and it's ever more prevalent.
 
 It will probably be 3 sessions.
 
+
+
+``The code, slides, and examples from this series are under a public-domain like license``
+
