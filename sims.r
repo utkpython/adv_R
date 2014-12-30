@@ -13,5 +13,7 @@
 # Assume (for the moment) that each person can only have one partner.
 
 # We need to find a match for all of them.
+# We need to maximize overall happiness.
+# To do this, we need to define a happiness function.
 
 library(lpSolveAPI)
