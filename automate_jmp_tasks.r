@@ -41,3 +41,7 @@ for (i in names(myData)) { print(c(i,summary(myData[[i]])))} #this is really slo
 # fit y by x
 
 my_model <- lm(yColumn~xColumn)
+
+
+# fit polynomials & plot them example
+# http://stackoverflow.com/questions/23334360/plot-polynomial-regression-curve-in-r
